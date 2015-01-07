@@ -15,6 +15,11 @@
 		65A1AF4B1A5C97ED009ED2A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A1AF4A1A5C97ED009ED2A6 /* Images.xcassets */; };
 		65A1AF4E1A5C97ED009ED2A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A1AF4C1A5C97ED009ED2A6 /* LaunchScreen.xib */; };
 		65A1AF5A1A5C97ED009ED2A6 /* LineTowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF591A5C97ED009ED2A6 /* LineTowerTests.swift */; };
+		65A1AF641A5CA7A8009ED2A6 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF631A5CA7A8009ED2A6 /* Unit.swift */; };
+		65A1AF661A5CA9CF009ED2A6 /* Tower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF651A5CA9CF009ED2A6 /* Tower.swift */; };
+		65A1AF681A5CB1FC009ED2A6 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF671A5CB1FC009ED2A6 /* Array2D.swift */; };
+		65A1AF6A1A5CB439009ED2A6 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF691A5CB439009ED2A6 /* Set.swift */; };
+		65A1AF6C1A5CB473009ED2A6 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF6B1A5CB473009ED2A6 /* Level.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		65A1AF531A5C97ED009ED2A6 /* LineTowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineTowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A1AF581A5C97ED009ED2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65A1AF591A5C97ED009ED2A6 /* LineTowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTowerTests.swift; sourceTree = "<group>"; };
+		65A1AF631A5CA7A8009ED2A6 /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		65A1AF651A5CA9CF009ED2A6 /* Tower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tower.swift; sourceTree = "<group>"; };
+		65A1AF671A5CB1FC009ED2A6 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		65A1AF691A5CB439009ED2A6 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		65A1AF6B1A5CB473009ED2A6 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,11 @@
 				65A1AF431A5C97ED009ED2A6 /* GameScene.swift */,
 				65A1AF451A5C97ED009ED2A6 /* GameViewController.swift */,
 				65A1AF471A5C97ED009ED2A6 /* Main.storyboard */,
+				65A1AF671A5CB1FC009ED2A6 /* Array2D.swift */,
+				65A1AF691A5CB439009ED2A6 /* Set.swift */,
+				65A1AF631A5CA7A8009ED2A6 /* Unit.swift */,
+				65A1AF651A5CA9CF009ED2A6 /* Tower.swift */,
+				65A1AF6B1A5CB473009ED2A6 /* Level.swift */,
 				65A1AF4A1A5C97ED009ED2A6 /* Images.xcassets */,
 				65A1AF4C1A5C97ED009ED2A6 /* LaunchScreen.xib */,
 				65A1AF3D1A5C97ED009ED2A6 /* Supporting Files */,
@@ -220,7 +235,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				65A1AF441A5C97ED009ED2A6 /* GameScene.swift in Sources */,
+				65A1AF681A5CB1FC009ED2A6 /* Array2D.swift in Sources */,
+				65A1AF641A5CA7A8009ED2A6 /* Unit.swift in Sources */,
+				65A1AF6A1A5CB439009ED2A6 /* Set.swift in Sources */,
+				65A1AF661A5CA9CF009ED2A6 /* Tower.swift in Sources */,
 				65A1AF461A5C97ED009ED2A6 /* GameViewController.swift in Sources */,
+				65A1AF6C1A5CB473009ED2A6 /* Level.swift in Sources */,
 				65A1AF401A5C97ED009ED2A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
