@@ -8,36 +8,39 @@
 
 import Foundation
 
-let NumColumns = 12
-let NumRows = 10
+let NumColumns = 6
+let NumRows = 5
 
 class Level {
-    var towers = Array2D<Tower>(columns: NumColumns, rows: NumRows)
-    func towerAtColumn(column: Int, row: Int) -> Tower? {
+    var p1grid = Array2D<Tile>(columns: NumColumns, rows: NumRows)
+    var p2grid = Array2D<Tile>(columns: NumColumns, rows: NumRows)
+    var tiles = Array2D<Tile>(columns: NumColumns, rows: NumRows)
+
+    func tileAtColumn(column: Int, row: Int) -> Tile? {
         assert(column >= 0 && column < NumColumns)
         assert(row >= 0 && row < NumRows)
-        return towers[column, row]
+        return tiles[column, row]
     }
-    func shuffle() -> Set<Tower> {
-        return createInitialTowers()
+    func shuffle() -> Set<Tile> {
+        return createInitialTiles()
     }
     
-    private func createInitialTowers() -> Set<Tower> {
-        var set = Set<Tower>()
+    private func createInitialTiles() -> Set<Tile> {
+        var set = Set<Tile>()
         
         // 1
         for row in 0..<NumRows {
             for column in 0..<NumColumns {
                 
                 // 2
-                var towerType = TowerType.random()
+                var tileType = TileType.random()
                 
                 // 3
-                let tower = Tower(column: column, row: row, towerType: towerType)
-                towers[column, row] = tower
+                let tile = Tile(column: column, row: row, tileType: tileType)
+                tiles[column, row] = tile
                 
                 // 4
-                set.addElement(tower)
+                set.addElement(tile)
             }
         }
         return set

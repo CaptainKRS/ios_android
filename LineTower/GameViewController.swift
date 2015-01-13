@@ -29,8 +29,9 @@ class GameViewController: UIViewController {
     }
     
     func shuffle() {
-        let newTowers = level.shuffle()
-        scene.addSpritesForCookies(newTowers)
+        let newTiles = level.shuffle()
+        scene.addSpritesForP1(newTiles)
+        scene.addSpritesForP2(newTiles)
     }
     
     override func viewDidLoad() {
