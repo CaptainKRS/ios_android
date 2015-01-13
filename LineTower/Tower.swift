@@ -8,24 +8,25 @@
 
 import SpriteKit
 
-enum TowerType: Int {
-    case Unknown = 0, Blank, Archer, Cannon, Freeze
+enum TowerType: Int, Printable {
+    case Unknown = 0,Archer, Cannon
     var spriteName: String {
         let spriteNames = [
-            "Blank",
             "Archer",
             "Cannon",
-            "Freeze"
             ]
         
         return spriteNames[rawValue - 1]
+    }
+    var description: String {
+        return spriteName
     }
     
     var highlightedSpriteName: String {
         return spriteName + "-Highlighted"
     }
     static func random() -> TowerType {
-        return TowerType(rawValue: Int(arc4random_uniform(3)) + 1)!
+        return TowerType(rawValue: Int(arc4random_uniform(2)) + 1)!
     }
 }
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		65A1AF401A5C97ED009ED2A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF3F1A5C97ED009ED2A6 /* AppDelegate.swift */; };
-		65A1AF421A5C97ED009ED2A6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65A1AF411A5C97ED009ED2A6 /* GameScene.sks */; };
 		65A1AF441A5C97ED009ED2A6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF431A5C97ED009ED2A6 /* GameScene.swift */; };
 		65A1AF461A5C97ED009ED2A6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF451A5C97ED009ED2A6 /* GameViewController.swift */; };
 		65A1AF491A5C97ED009ED2A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A1AF471A5C97ED009ED2A6 /* Main.storyboard */; };
@@ -20,6 +19,7 @@
 		65A1AF681A5CB1FC009ED2A6 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF671A5CB1FC009ED2A6 /* Array2D.swift */; };
 		65A1AF6A1A5CB439009ED2A6 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF691A5CB439009ED2A6 /* Set.swift */; };
 		65A1AF6C1A5CB473009ED2A6 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A1AF6B1A5CB473009ED2A6 /* Level.swift */; };
+		65A1AF6E1A65A318009ED2A6 /* towers.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 65A1AF6D1A65A318009ED2A6 /* towers.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 		65A1AF3A1A5C97ED009ED2A6 /* LineTower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineTower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A1AF3E1A5C97ED009ED2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65A1AF3F1A5C97ED009ED2A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65A1AF411A5C97ED009ED2A6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		65A1AF431A5C97ED009ED2A6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		65A1AF451A5C97ED009ED2A6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		65A1AF481A5C97ED009ED2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		65A1AF671A5CB1FC009ED2A6 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		65A1AF691A5CB439009ED2A6 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		65A1AF6B1A5CB473009ED2A6 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		65A1AF6D1A65A318009ED2A6 /* towers.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = towers.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				65A1AF3F1A5C97ED009ED2A6 /* AppDelegate.swift */,
-				65A1AF411A5C97ED009ED2A6 /* GameScene.sks */,
 				65A1AF431A5C97ED009ED2A6 /* GameScene.swift */,
 				65A1AF451A5C97ED009ED2A6 /* GameViewController.swift */,
 				65A1AF471A5C97ED009ED2A6 /* Main.storyboard */,
@@ -102,6 +101,7 @@
 				65A1AF651A5CA9CF009ED2A6 /* Tower.swift */,
 				65A1AF6B1A5CB473009ED2A6 /* Level.swift */,
 				65A1AF4A1A5C97ED009ED2A6 /* Images.xcassets */,
+				65A1AF6D1A65A318009ED2A6 /* towers.atlas */,
 				65A1AF4C1A5C97ED009ED2A6 /* LaunchScreen.xib */,
 				65A1AF3D1A5C97ED009ED2A6 /* Supporting Files */,
 			);
@@ -215,8 +215,8 @@
 			files = (
 				65A1AF4E1A5C97ED009ED2A6 /* LaunchScreen.xib in Resources */,
 				65A1AF4B1A5C97ED009ED2A6 /* Images.xcassets in Resources */,
-				65A1AF421A5C97ED009ED2A6 /* GameScene.sks in Resources */,
 				65A1AF491A5C97ED009ED2A6 /* Main.storyboard in Resources */,
+				65A1AF6E1A65A318009ED2A6 /* towers.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
