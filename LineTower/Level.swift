@@ -8,8 +8,8 @@
 
 import Foundation
 
-let NumColumns = 9
-let NumRows = 9
+let NumColumns = 12
+let NumRows = 10
 
 class Level {
     var towers = Array2D<Tower>(columns: NumColumns, rows: NumRows)

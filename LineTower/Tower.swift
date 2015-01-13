@@ -12,8 +12,7 @@ enum TowerType: Int, Printable {
     case Unknown = 0,Archer, Cannon
     var spriteName: String {
         let spriteNames = [
-            "Archer",
-            "Cannon",
+            "combine-grass-outer"
             ]
         
         return spriteNames[rawValue - 1]
@@ -26,7 +25,7 @@ enum TowerType: Int, Printable {
         return spriteName + "-Highlighted"
     }
     static func random() -> TowerType {
-        return TowerType(rawValue: Int(arc4random_uniform(2)) + 1)!
+        return TowerType(rawValue: Int(arc4random_uniform(1)) + 1)!
     }
 }
 
