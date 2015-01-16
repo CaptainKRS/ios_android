@@ -1,0 +1,44 @@
+<Game overview>
+A one vs one like tower defense game where players build 
+a defense stratgy or player generated armys to over take the oppostions base 
+
+Each player will start with a set amount of gold 
+which will allow them to either start building units for war
+or to build a tower and defend
+
+Players will gain resources by killing units with a generated army or a tower
+
+Players that summon units will gain resouces based
+
+<Locust of Control>
+Players can focus on building army's to help defeat other levels to gain resources and progression
+
+or 
+
+Playes can focus on building a city that would be just defensive, a worker based city that gathers resources
+by defending off attacks and 
+
+<Maps and Environment> 
+Each player starts with the same area of land to build 
+
+<Ideas for game play>
+
+Players levels are based on a set of attributes like attack and defense ratings to match opponets
+
+Players can also wager vs another opponent that is similar level and create a prize pool to the winner
+The prize pool will give incentive to keep that city or army challanged
+
+The players that control the armys will have to be at the device setting up wave timing and stratagies 
+
+The players that want to set up a defenseive city will have tools and options to control how some of the towers
+and workers will interact when the city is under siege
+
+Most of the speciality defense towers will be automated maybe having them target units that meet
+certain critera.
+
+
+<Currency>
+the players generate game currency by gather resources by defeating 
+another players grid or computer generated level.
+
+Or Players can purchase currency via the store aka "Give me dat MUUNNNEY!!"

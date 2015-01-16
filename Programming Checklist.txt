@@ -1,0 +1,8 @@
+<Programming Progression>
+
+1.Get a working knoledge of Andriod and Xcode's SDK's
+2.Create the Grid / environment and the Players base
+4.Create the the system for income when the base is created
+5.Create the system for creating units from the base, and augumenting the income based on the units summoned 
+6.Start programming pathing / environment interactions (Tower and building placement and borders)
+ 
