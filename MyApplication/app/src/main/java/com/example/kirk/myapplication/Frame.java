@@ -1,12 +1,16 @@
-import java.awt.Dimension;
-import java.awt.GridLayout;
+package com.example.kirk.myapplication;
 
-import javax.swing.JFrame;
+/**
+ * Created by Kirk on 1/16/2015.
+ */
 
 
-public class Frame extends JFrame {
+import android.widget.GridLayout;
+
+
+public class Frame extends GridLayout {
     public static String title = "Tower Defense";
-    public static Dimension size = new Dimension (1280,800);
+    public static
 
     public Frame() {
         setTitle(title);
@@ -19,7 +23,7 @@ public class Frame extends JFrame {
     }
 
     public void init() {
-        setLayout(new GridLayout(1, 1, 0, 0));
+        setLayout(new GridLayout);
 
         Screen screen = new Screen();
         add(screen);
